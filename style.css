@@ -1,0 +1,409 @@
+.navdivbg{
+  width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(1, 21, 53), #185ADB);
+}
+.div1bgcolor{
+  background-color: rgb(10, 25, 49);
+  height: 875px;
+  width : 100%;
+}
+.div1border{
+  border: 2px rgb(10, 25, 49);
+  padding: 10px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.divlogo{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.logo{
+  height: 100%;
+}
+.divpic{
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+.pic{
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+  padding-right: 10%;
+  float: right;
+  height: 100%;
+}
+.div2bgcolor{
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 875px;
+}
+.div3bgcolor{
+  background-image: linear-gradient(#AA2EE6, #185ADB);
+  width: 100%;
+  height: 875px;
+}
+.div4bgcolor{
+  background-image:linear-gradient( #DC2ADE, #AA2EE6);
+  width: 100%;
+  height: 875px;
+}
+.div3and4{
+  background-color: #185ADB;
+  height: 1750px;
+  width: 100%;
+}
+.rounded-bottom{
+  border-radius: 35px !important;
+}
+.skillheader{
+width: 100%;
+height: 19%;
+}
+.skills{
+width: 100%;
+height: 81%;
+}
+.aboutheader{
+width: 100%;
+height: 15%;
+color: #0A1931;
+}
+.About{
+width: 100%;
+height: 85%;
+}
+.contactheader{
+width: 100%;
+height: 15%;
+}
+.contact{
+width: 100%;
+height: 85%;
+}
+.quote{
+  width: 100%;
+  height: 330px;
+}
+.textcolor{
+  color: #FFFFFF;
+}
+.txtshadow{
+  text-shadow: 4px 4px 4px grey;
+}
+.line{
+  height: 20%;
+}
+.content2{
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left{
+float: left;
+width: 50%;
+height: 100%;
+}
+.right{
+float: right;
+width: 50%;
+height: 100%;
+}
+.aboutpic{
+max-height: 100%;
+width: auto;
+}
+.aboutimg{
+height: 100%;
+width: 100%
+}
+.listcolor{
+  color: rgb(72, 16, 100);
+}
+ul{
+  color: solid rgb(72, 16, 100)
+}
+.verticalcenter{
+  padding-top: 200px;
+}
+.listcontent{
+  font-size: 20px;
+  font-weight: 900;
+  width: 90%;
+  box-shadow: 0 0 50px black;  
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+.divleft{
+float: left;
+width: 50%;
+height: 100%;
+}
+.divmiddle{
+float: left;
+width: 5px;
+height: 90%;
+background-color: #0A1931;
+}
+.divright{
+float: left;
+width: 49%;
+height: 100%;
+}
+#skillspic{
+  height: 490px;
+  width: 490px;
+}
+.skillsmargin{
+  padding-top: 56.22px;
+}
+.icons{
+  height: 90%;
+  width: 90%;
+}
+.div-center{
+  display: block;
+  margin: auto;
+}
+.row{
+  float: right;
+  height: 33.33%;
+  width: 100%
+}
+.iconsmargin{
+  padding-top: 17.315px;
+}
+.column{
+float: left;
+width: 33.33%;
+height: 100%;
+text-align: center;
+}
+.tp{
+  height: 100%;
+  width: 100%; 
+}
+.iconlogo{
+width: 100%;
+height: 77.4%;
+text-align: center;
+}
+.logopic:hover{
+  width: 100%;
+  height: 100%;
+}
+.iconname{
+  width: 100%;
+  height: 22.6%;
+}
+.logopic{
+  text-align: center;
+  width: 87%;
+  height: 87%;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');  
+ *{  
+   margin: 0;padding: 0;  
+   box-sizing: border-box;  
+   font-family: 'Poppins', sans-serif;  
+ }  
+ .connect{
+   text-align: center;
+  height: 5%;
+  width: 100%;
+}
+ .links{
+  display: flex;
+  height: 95%;
+  width: 100%;
+  justify-content: center;  
+  align-items: center; 
+}
+.container{
+  width: 70%!important;
+  height: 80%;
+}
+ .box{  
+   color: white;
+   width: 75px;  
+   height: 79px;  
+   position: relative;  
+   display: flex;  
+   align-items: center;  
+   overflow: hidden;  
+   padding: 5px;  
+   cursor: pointer;  
+   margin: 1em;  
+   transition: all .4s;  
+ }
+  .box1:hover{  
+   text-shadow: 0 0 15px white;
+   width: 100%;  
+   background: black;  
+   border-radius: 10px;  
+   box-shadow: 0 0 50px white;  
+ }
+   .box2:hover{  
+   width: 100%;  
+   background: white;  
+   border-radius: 10px;  
+   box-shadow: 0 0 50px black;  
+ }
+   .box3:hover{
+   text-shadow: 0 0 15px white;
+   width: 100%;  
+   background: #c32aa3;  
+   border-radius: 10px;  
+   box-shadow: 0 0 50px white;  
+ }
+   .box4:hover{
+   text-shadow: 0 0 15px white;
+   width: 100%;  
+   background: #1da1f2;  
+   border-radius: 10px;  
+   box-shadow: 0 0 50px black;  
+ }
+   .box5:hover{
+   text-shadow: 0 0 15px white;
+   width: 100%;  
+   background: #25d366;  
+   border-radius: 10px;  
+   box-shadow: 0 0 50px white;  
+ }
+   .box6:hover{
+   text-shadow: 0 0 15px white;
+   width: 100%;  
+   background: #FF0000;  
+   border-radius: 10px;  
+   box-shadow: 0 0 50px black;  
+ }
+ .p{
+   padding-left: 1.3em;  
+   transform: translate(60px);  
+ }  
+ .box .icon{  
+   position: absolute;  
+   width: 75px;  
+   height: 75px;  
+   display: flex;  
+   justify-content: center;  
+   align-items: center;  
+
+   border-radius: 10px;  
+   margin-right: 10px;  
+   transition: all .4s;  
+ }
+  .github{  
+   background: black;  
+ }  
+  .mail{
+   background: white;  
+ }  
+ .instagram{  
+   background: #c32aa3;  
+ }  
+ .twitter{  
+   background: #1da1f2;  
+ }  
+ .whatsapp{  
+   background: #25d366;  
+ }
+ .youtube{
+   background: #FF0000;  
+ }
+ .box:hover .icon{  
+   background: white;  
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);  
+   color: rgb(59, 59, 59);  
+ } 
+
+ span.blue{ 
+     color:blue; 
+    } 
+span.yellow{ 
+       color:rgb(190, 190, 0); 
+    } 
+    span.red{ 
+     color:red; 
+    } 
+span.green{ 
+       color: green; 
+    }
+span.black{
+  color: black;
+}
+.header{
+width: 100%;
+height: 5%;
+}
+.endcard{
+  display: flex;
+  height: 95%;
+  width: 100%;
+  justify-content: center;  
+  align-items: center; 
+}
+.card{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 60px black;  
+  height: 80%;
+  width: 465.5px;
+}
+.endline{
+ position: absolute;
+ bottom: 1rem;
+}
+.Contacticon{
+  margin-left: 25%;
+  width: 50%;
+  background-color: blue;
+  font-size:20px;
+  font-weight: 900;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.w-full{
+  width: 100%;
+}
+.text-indigo-700{
+  --tw-text-opacity: 1;
+  color: rgba(67,56,202,var(--tw-text-opacity))
+}
+.px-8{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.py-3{
+padding-top: 0.75rem;
+padding-bottom: 0.75rem;
+}
+.text-base{
+font-size: 1rem;
+line-height: 1.5rem;
+}
+.flex{
+  display: flex
+}
+.border{
+  border: 1px;
+}
+.rounded-md{
+  border-radius: 0.375rem;
+}
+.border-transparent{
+  border-color: blue;
+}
+.bg-indigo-100{
+  --tw-bg-opacity: 1;
+  background-color: rgba(224,231,255,var(--tw-bg-opacity));
+}
+.justify-center{
+justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
